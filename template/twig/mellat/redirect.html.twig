@@ -1,0 +1,6 @@
+<form id="redirect_to_mellat" method="post" action="https://bpm.shaparak.ir/pgwchannel/startpay.mellat"
+      style="display:none !important;">
+    <input type="hidden" name="RefId" value="{{ ref_id|raw }}"/>
+    <input type="submit" value="Pay"/>
+</form>
+<script>document.getElementById("redirect_to_mellat").submit();</script>

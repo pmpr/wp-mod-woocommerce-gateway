@@ -1,0 +1,25 @@
+{
+  "name": "pmpr/wp-pkg-woocommerce-api-manager",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Woocommerce API Manager Package for Wordpress",
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "api manager",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "econea/nusoap": "v0.9.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\WoocommerceGateway\\": "src/Pmpr/Package/WoocommerceGateway"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
