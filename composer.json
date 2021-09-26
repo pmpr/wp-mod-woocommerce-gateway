@@ -1,8 +1,8 @@
 {
-  "name": "pmpr/wp-pkg-woocommerce-api-manager",
+  "name": "pmpr/wp-pkg-woocommerce-gateway",
   "type": "project",
   "license": "proprietary",
-  "description": "Woocommerce API Manager Package for Wordpress",
+  "description": "Woocommerce Gateway",
   "keywords": [
     "wordpress",
     "woocommerce",
