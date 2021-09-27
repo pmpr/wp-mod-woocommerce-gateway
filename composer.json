@@ -1,5 +1,5 @@
 {
-  "name": "pmpr/wp-pkg-woocommerce-gateway",
+  "name": "pmpr/package/wp-pkg-woocommerce-gateway",
   "type": "project",
   "license": "proprietary",
   "description": "Woocommerce Gateway",
