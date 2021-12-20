@@ -467,3 +467,4 @@ msgstr "آدرس آی پی معتبر نیست."
 #, php-format
 msgid "A system error occurred while paying: %s"
 msgstr ""
+
