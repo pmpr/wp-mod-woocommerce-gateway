@@ -1,6 +1,6 @@
 <form action="" method="POST" class="{{ id|esc_attr }}-checkout-form" id="{{ id|esc_attr }}-checkout-form">
     <input type="submit" name="{{ submit|esc_attr }}" class="purchase-input" id="{{ submit|esc_attr }}"
-           value="{{ back_title|raw }}"/>
-    <a class="back-to-checkout" href="{{ back_url|esc_attr }}">{{ submit_text|raw }}</a>
+           value="{{ submit_text|raw }}"/>
+    <a class="back-to-checkout" href="{{ back_url|esc_attr }}">{{ back_text|raw }}</a>
 </form>
 
