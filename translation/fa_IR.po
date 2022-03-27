@@ -22,59 +22,59 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:81
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:81
 #, php-format
 msgid "%s gateway settings for woocommerce"
 msgstr "تنظیمات درگاه پرداخت %s برای افزونه فروشگاه ساز ووکامرس"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:111
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:111
 msgid "Activation"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:112
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:112
 msgid "Active Gateway"
 msgstr "فعال‌سازی درگاه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:115
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:115
 msgid "To activate this payment gateway, you must check the checkbox."
 msgstr "برای فعالسازی این درگاه پرداخت باید چک باکس را تیک بزنید."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:119
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:119
 msgid "Gateway Title"
 msgstr "عنوان درگاه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:122
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:122
 msgid ""
 "The title of the gateway that is displayed to the customer during the "
 "purchase."
 msgstr "عنوانی که در طی عملیات پرداخت برای درگاه نمایش داده خواهد شد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:126
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:126
 msgid "Gateway Description"
 msgstr "توضیحات درگاه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:127
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:127
 #, php-format
 msgid "Secure payment by all Shetab member cards through %s payment gateway."
 msgstr "پرداخت امن به وسیله کلیه کارت های عضو شتاب از طریق درگاه %s."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:129
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:129
 msgid ""
 "Descriptions that will be displayed to the gateway during the payment "
 "process."
 msgstr "توضیحاتی که در طی عملیات پرداخت برای درگاه نمایش داده خواهد شد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:133
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:133
 msgid "Gateway Icon"
 msgstr "آیکون درگاه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:137
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:137
 msgid ""
 "The icon of the gateway that is displayed to the customer during the "
 "purchase."
 msgstr "آیکونی که در طی عملیات پرداخت برای درگاه نمایش داده خواهد شد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:142
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:142
 msgid ""
 "Enable this option if you want the user to be directed directly to the "
 "payment gateway and not click on the preload option on the pre-invoice page."
@@ -82,11 +82,11 @@ msgstr ""
 "در صورتی که قصد دارید کاربر مستقیما به درگاه هدایت شود و در صفحه پیش‌فاکتور "
 "گزینه پرداخت را کلیک نکند، این گزینه را فعال نمایید."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:143
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:143
 msgid "Direct Redirect"
 msgstr "هدایت مستقیم به درگاه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:145
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:145
 msgid ""
 "By default (disabling this option) the buyer first sees the order number and "
 "the final price before being directed to the portal, and then is directed to "
@@ -96,374 +96,374 @@ msgstr ""
 "شماره سفارش و قیمت نهایی را مشاهده میکند و سپس با زدن دکمه تایید به درگاه "
 "هدایت میشود."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:155
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:155
 msgid "You can use this short keys in messages"
 msgstr ""
 "شما می‌توانید از این کلید‌ها در پیام‌ها استفاده کنید، که در حین نمایش، با "
 "مقادیر مربوطه جایگزین خواهند شد"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:166
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:166
 msgid "Payment operation Messages"
 msgstr "پیغام‌های عملیات پرداخت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:172
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:172
 msgid "Success Payment Message"
 msgstr "پیغام پرداخت موفق"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:173
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:173
 msgid "Thank you, your order is successfully payed."
 msgstr "با تشکر از شما. سفارش شما با موفقیت پرداخت شد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:174
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:174
 msgid "The text of message after successful payment."
 msgstr ""
 "متن پیامی که میخواهید بعد از پرداخت موفق به کاربر نمایش دهید را وارد نمایید."
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:178
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:178
 msgid "Failed Payment Message"
 msgstr "پیام پرداخت ناموفق"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:179
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:179
 msgid ""
 "پرداخت شما ناموفق بوده است . لطفا مجددا تلاش نمایید یا در صورت بروز اشکال با "
 "مدیر سایت تماس بگیرید ."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:180
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:180
 msgid ""
 "متن پیامی که میخواهید بعد از پرداخت ناموفق به کاربر نمایش دهید را وارد "
 "نمایید . همچنین می توانید از شورت کد {fault} برای نمایش دلیل خطای رخ داده "
 "استفاده نمایید . این دلیل خطا از سایت بانک ملت ارسال میگردد ."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:184
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:184
 msgid "Cancel Payment Message"
 msgstr "پیام انصراف از پرداخت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:185
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:185
 msgid "پرداخت به دلیل انصراف شما ناتمام باقی ماند ."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:186
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:186
 msgid ""
 "متن پیامی که میخواهید بعد از انصراف کاربر از پرداخت نمایش دهید را وارد "
 "نمایید . این پیام بعد از بازگشت از بانک نمایش داده خواهد شد ."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:218
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:218
 msgid "Back"
 msgstr "بازگشت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:219
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:219
 msgid "Purchase"
 msgstr "پرداخت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:231
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:231
 #, php-format
 msgid ""
 "The following error occurred while connecting to the %s payment gateway."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:243
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:243
 msgid "Order ID is not exits"
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:251
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:251
 msgid "The transaction status has already been specified."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:259
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:259
 msgid "Transaction validation information is incorrect."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:283
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:283
 msgid "The transaction was successful."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:284
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:375
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:284
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:375
 msgid "Transaction request number"
 msgstr "شماره درخواست تراکنش"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:294
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:294
 msgid "The transaction remained unfinished due to user cancellation."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:297
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:297
 msgid "An error occurred while paying."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:298
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:298
 #, php-format
 msgid "The following error occurred while returning from %s gateway payment."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:487
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:487
 msgid "This transaction has been verified once before."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:640
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:640
 msgid "Error cause"
 msgstr "دلیل خطا"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:641
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:641
 msgid "Transaction ID"
 msgstr "شناسه تراکنش"
 
-#: src/Pmpr/Package/WoocommerceGateway/Gateway.php:818
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:818
 msgid "Error"
 msgstr "خطا"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:35
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:35
 msgid "Mellat Bank"
 msgstr "بانک ملت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:76
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:76
 msgid "Bank Mellat account settings"
 msgstr "تنظیمات حساب بانک ملت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:80
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:80
 msgid "Terminal ID"
 msgstr "شناسه ترمینال"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:82
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:82
 msgid "Bank Mellat portal terminal number"
 msgstr "شماره ترمینال درگاه بانک ملت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:86
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:86
 msgid "Username"
 msgstr "نام کاربری"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:88
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:88
 msgid "Bank Mellat portal username"
 msgstr "نام کاربری درگاه بانک ملت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:92
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:92
 msgid "Password"
 msgstr "گذرواژه"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:94
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:94
 msgid "Bank Mellat portal password"
 msgstr "کلمه عبور درگاه بانک ملت"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:110
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:110
 #, php-format
 msgid "Order Number # %s"
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:159
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:159
 msgid "Connecting to the bank ....."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:383
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:383
 #, php-format
 msgid "Transaction canceled because of: %s, resCode: %s"
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:387
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:387
 msgid ""
 "The payment amount must be returned to the user's account because a system "
 "error occurred while returning the amount."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:390
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:390
 msgid "The amount paid by the user was returned through the bank."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:397
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:397
 #, php-format
 msgid "Transaction failed because of: %s, resCode: %s"
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:436
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:436
 msgid "Sale Order ID"
 msgstr "شناسه سفارش خرید"
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:450
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:450
 msgid "Manual Settel operation performed successfully."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:454
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:454
 msgid "Failure in connection with the bank."
 msgstr "شکست در ارتباط با بانک."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:457
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:457
 msgid "Card number is not valid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:460
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:460
 msgid "Inventory is not enough."
 msgstr "موجودی کافی نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:463
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:463
 msgid "Your second password is incorrect."
 msgstr "رمز دوم شما صحیح نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:466
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:466
 msgid "The password enter times is more than threshold."
 msgstr "دفعات مجاز ورود رمز بیش از حد است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:469
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:469
 msgid "The card is not valid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:472
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:472
 msgid "Withdraw funds is more than allowed threshold."
 msgstr "دفعات برداشت وجه بیش از حد مجاز است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:475
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:475
 msgid "You have stopped transacting."
 msgstr "شما از انجام تراکنش منصرف شده اید."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:478
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:478
 msgid "The card has expired."
 msgstr "تاریخ انقضای کارت گذشته است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:481
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:481
 msgid "Amount is more than allowed threshold."
 msgstr "مبلغ برداشت وجه بیش از حد مجاز است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:484
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:484
 msgid "Invalid card issuer."
 msgstr "صادر کننده کارت نامعتبر است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:487
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:487
 msgid "Card issuer switch error has occurred."
 msgstr "خطای سوییچ صادر کننده کارت رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:490
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:490
 msgid "No response was received from the card issuer."
 msgstr "پاسخی از صادر کننده کارت دریافت نشد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:493
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:493
 msgid "The cardholder is not allowed to perform this transaction."
 msgstr "دارنده کارت مجاز به انجام این تراکنش نمی باشد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:496
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:496
 msgid "The acceptor is not valid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:499
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:499
 msgid "A security error has occurred."
 msgstr "خطای امنیتی رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:502
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:502
 msgid "The user information of the acceptor is not valid."
 msgstr "اطلاعات کاربری پذیرنده معتبر نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:505
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:505
 msgid "The amount is invalid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:508
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:508
 msgid "The answer is invalid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:511
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:511
 msgid "The format of the entered information is incorrect."
 msgstr "فرمت اطلاعات وارد شده صحیح نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:514
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:514
 msgid "Invalid account."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:517
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:517
 msgid "A system error has occurred."
 msgstr "خطای سیستمی رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:520
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:520
 msgid "Invalid date."
 msgstr "تاریخ نامعتبر است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:523
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:523
 msgid "The request number is duplicate."
 msgstr "شماره درخواست تکراری است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:526
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:526
 msgid "There is no such transaction."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:529
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:529
 msgid "Verify has already been requested."
 msgstr "قبلا درخواست Verify داده شده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:532
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:532
 msgid "Verify request not found."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:535
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:535
 msgid "The transaction is already Settle."
 msgstr "تراکنش قبلا Settle شده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:538
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:538
 msgid "The transaction is not Settle."
 msgstr "تراکنش Settle نشده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:541
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:541
 msgid "Settle transaction not found."
 msgstr "تراکنش Settle یافت نشد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:544
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:544
 msgid "The transaction has already been reversed."
 msgstr "تراکنش قبلا Reverse شده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:547
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:547
 msgid "Refund transaction not found."
 msgstr "تراکنش Refund یافت نشد."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:550
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:550
 msgid "The transaction is duplicate."
 msgstr "تراکنش تکراری است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:553
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:553
 msgid "No reference transaction available."
 msgstr "تراکنش مرجع موجود نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:556
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:556
 msgid "The transaction is invalid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:559
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:559
 msgid "An error occurred while depositing."
 msgstr "خطا در واریز رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:562
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:562
 msgid "Invoice ID is incorrect."
 msgstr "شناسه قبض نادرست است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:565
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:565
 msgid "The payment ID is incorrect."
 msgstr "شناسه پرداخت نادرست است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:568
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:568
 msgid "The issuing organization is not valid."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:571
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:571
 msgid "Session timeout."
 msgstr ""
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:574
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:574
 msgid "An error occurred while recording the information."
 msgstr "خطا در ثبت اطلاعات رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:577
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:577
 msgid "Invalid payer ID."
 msgstr "شناسه پرداخت کننده نامعتبر است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:580
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:580
 msgid "There was a problem defining the customer information."
 msgstr "اشکال در تعریف اطلاعات مشتری رخ داده است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:583
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:583
 msgid "Excessive data entry is allowed."
 msgstr "تعداد دفعات ورود اطلاعات بیش از حد مجاز است."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:586
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:586
 msgid "IP is not valid."
 msgstr "آدرس آی پی معتبر نیست."
 
-#: src/Pmpr/Package/WoocommerceGateway/Mellat.php:589
+#: src/Pmpr/Module/WoocommerceGateway/Mellat.php:589
 #, php-format
 msgid "A system error occurred while paying: %s"
 msgstr ""

@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61eec53a7e974             |
+    |             6240172f972b5             |
     |_______________________________________|
 */
- use Pmpr\Package\WoocommerceGateway\WoocommerceGateway; WoocommerceGateway::symcgieuakksimmu();
+ use Pmpr\Module\WoocommerceGateway\WoocommerceGateway; WoocommerceGateway::symcgieuakksimmu();

@@ -1,5 +1,5 @@
 {
-  "name": "pmpr-pkg/wp-pkg-woocommerce-gateway",
+  "name": "pmpr-mod/wp-mod-woocommerce-gateway",
   "type": "project",
   "license": "proprietary",
   "description": "Woocommerce Gateway",
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\WoocommerceGateway\\": "src/Pmpr/Package/WoocommerceGateway"
+      "Pmpr\\Module\\WoocommerceGateway\\": "src/Pmpr/Module/WoocommerceGateway"
     },
     "files": [
       "index.php"
