@@ -11,7 +11,8 @@
   ],
   "require": {
     "php": ">=7.4",
-    "econea/nusoap": "v0.9.11"
+    "econea/nusoap": "v0.9.11",
+    "pmpr-cmn/wp-cmn-foundation": "~1.2.50"
   },
   "autoload": {
     "psr-4": {
