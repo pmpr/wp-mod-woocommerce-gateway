@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Woocommerce Gateway\n"
-"POT-Creation-Date: 2023-07-09 10:57+0330\n"
-"PO-Revision-Date: 2023-07-09 11:01+0330\n"
+"POT-Creation-Date: 2023-07-25 09:20+0330\n"
+"PO-Revision-Date: 2023-07-25 09:20+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -27,58 +27,58 @@ msgstr ""
 msgid "%s gateway settings for woocommerce"
 msgstr "تنظیمات درگاه پرداخت %s برای افزونه فروشگاه ساز ووکامرس"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:119
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:120
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:121
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:122
 msgid "Activation"
 msgstr "فعال‌سازی"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:122
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:123
 msgid "To activate this payment gateway, you must check the checkbox."
 msgstr "برای فعالسازی این درگاه پرداخت باید چک باکس را تیک بزنید."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:125
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:126
 msgid "Gateway Title"
 msgstr "عنوان درگاه"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:126
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:127
 msgid ""
 "The title of the gateway that is displayed to the customer during the "
 "purchase."
 msgstr "عنوانی که در طی عملیات پرداخت برای درگاه نمایش داده خواهد شد."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:129
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:130
 msgid "Gateway Description"
 msgstr "توضیحات درگاه"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:130
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:131
 #, php-format
 msgid "Secure payment by all Shetab member cards through %s payment gateway."
 msgstr "پرداخت امن به وسیله کلیه کارت های عضو شتاب از طریق درگاه %s."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:131
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:132
 msgid ""
 "Descriptions that will be displayed to the gateway during the payment "
 "process."
 msgstr "توضیحاتی که در طی عملیات پرداخت برای درگاه نمایش داده خواهد شد."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:134
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:135
 msgid "Gateway Image"
 msgstr "تصویر درگاه"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:135
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:136
 msgid ""
 "The image of the gateway that is displayed to the customer during the "
 "purchase."
 msgstr "تصویر که هنگام خرید به مشتری نمایش داده می شود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:139
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:140
 msgid "Direct Redirect"
 msgstr "هدایت مستقیم به درگاه"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:142
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:143
 msgid ""
 "Enable this option if you want the user to be directed directly to the "
 "payment gateway and not click on the preload option on the pre-invoice page."
@@ -86,7 +86,7 @@ msgstr ""
 "در صورتی که قصد دارید کاربر مستقیما به درگاه هدایت شود و در صفحه پیش‌فاکتور "
 "گزینه پرداخت را کلیک نکند، این گزینه را فعال نمایید."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:143
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:144
 msgid ""
 "By default (disabling this option) the buyer first sees the order number and "
 "the final price before being directed to the portal, and then is directed to "
@@ -96,42 +96,42 @@ msgstr ""
 "شماره سفارش و قیمت نهایی را مشاهده میکند و سپس با زدن دکمه تایید به درگاه "
 "هدایت میشود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:157
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:158
 msgid "Payment operation Messages"
 msgstr "پیغام‌های عملیات پرداخت"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:160
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:161
 msgid "Connecting Message"
 msgstr "پیام در حال اتصال"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:160
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:161
 msgid "Connecting to the bank..."
 msgstr "در حال اتصال به بانک ..."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:161
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:162
 msgid ""
 "The text of the message you want to be displayed to the customer when "
 "connecting to the bank."
 msgstr "متن پیامی که می خواهید هنگام اتصال به بانک به مشتری نمایش داده شود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:165
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:166
 msgid "Success Payment Message"
 msgstr "پیغام پرداخت موفق"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:166
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:167
 msgid "Thank you, your order is successfully payed."
 msgstr "با تشکر از شما. سفارش شما با موفقیت پرداخت شد."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:167
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:168
 msgid "The text of message after successful payment."
 msgstr ""
 "متن پیامی که میخواهید بعد از پرداخت موفق به کاربر نمایش دهید را وارد نمایید."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:171
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:172
 msgid "Failed Payment Message"
 msgstr "پیام پرداخت ناموفق"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:172
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:173
 msgid ""
 "Your payment has failed. Please try again or contact the site administrator "
 "if there is a problem."
@@ -139,7 +139,7 @@ msgstr ""
 "پرداخت شما انجام نشد. لطفاً دوباره امتحان کنید یا در صورت وجود مشکل با مدیر "
 "سایت تماس بگیرید."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:173
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:174
 msgid ""
 "Enter the text of the message that you want to display to the user after an "
 "unsuccessful payment, this error reason is sent from Bank website."
@@ -147,15 +147,15 @@ msgstr ""
 "متن پیامی که می خواهید پس از پرداخت ناموفق به کاربر نمایش داده شود را وارد "
 "کنید، این دلیل خطا از سایت بانک ارسال می شود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:178
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:179
 msgid "Cancel Payment Message"
 msgstr "پیام انصراف از پرداخت"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:179
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:180
 msgid "The payment remained incomplete due to your cancellation."
 msgstr "به دلیل انصراف شما، پرداخت ناقص باقی ماند."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:180
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:181
 msgid ""
 "Enter the text of the message you want to display after the user cancels the "
 "payment, this message will be displayed after returning from the bank."
@@ -163,83 +163,84 @@ msgstr ""
 "پس از انصراف کاربر از پرداخت، متن پیامی که می خواهید نمایش داده شود را وارد "
 "کنید، این پیام پس از بازگشت از بانک نمایش داده می شود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:184
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:185
 msgid "Connection Error Message"
 msgstr "پیام خطای اتصال"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:185
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:186
 msgid "Error connecting to the bank, please try again."
 msgstr "خطا در اتصال به بانک، لطفاً دوباره امتحان کنید."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:186
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:187
 msgid ""
 "The text of the message you want to be displayed to the customer after an "
 "error in connecting to the bank."
 msgstr ""
 "متن پیامی که می خواهید پس از خطا در اتصال به بانک به مشتری نمایش داده شود."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:226
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:229
 msgid "Back"
 msgstr "بازگشت"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:227
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:230
 msgid "Purchase"
 msgstr "پرداخت"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:239
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:242
 #, php-format
 msgid ""
 "The following error occurred while connecting to the %s payment gateway."
 msgstr ""
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:253
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:256
 msgid "Order ID is not exits"
-msgstr ""
+msgstr "شناسه سفارش وجود ندارد"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:261
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:264
 msgid "The transaction status has already been specified."
-msgstr ""
+msgstr "وضعیت تراکنش قبلاً مشخص شده است."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:269
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:272
 msgid "Transaction validation information is incorrect."
 msgstr ""
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:295
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:298
 msgid "The transaction was successful."
-msgstr ""
+msgstr "معامله با موفقیت انجام شد."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:296
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:299
 #: src/Pmpr/Module/WoocommerceGateway/Mellat.php:368
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:145
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:145
 msgid "Transaction request number"
 msgstr "شماره درخواست تراکنش"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:306
-msgid "The transaction remained unfinished due to user cancellation."
-msgstr ""
-
 #: src/Pmpr/Module/WoocommerceGateway/Gateway.php:309
-msgid "An error occurred while paying."
-msgstr ""
+msgid "The transaction remained unfinished due to user cancellation."
+msgstr "تراکنش به دلیل لغو کاربر ناتمام ماند."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:310
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:312
+msgid "An error occurred while paying."
+msgstr "هنگام پرداخت خطایی روی داد."
+
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:313
 #, php-format
 msgid "The following error occurred while returning from %s gateway payment."
 msgstr ""
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:498
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:501
 msgid "This transaction has been verified once before."
-msgstr ""
+msgstr "این تراکنش قبلاً یک بار تأیید شده است."
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:651
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:654
 msgid "Error cause"
 msgstr "دلیل خطا"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:652
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:655
 msgid "Transaction ID"
 msgstr "شناسه تراکنش"
 
-#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:774
+#: src/Pmpr/Module/WoocommerceGateway/Gateway.php:777
 msgid "Error"
 msgstr "خطا"
 
@@ -249,8 +250,9 @@ msgstr "بانک ملت"
 
 #: src/Pmpr/Module/WoocommerceGateway/Mellat.php:73
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:168
-msgid "Back Account Configuration"
-msgstr ""
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:168
+msgid "Bank Account Configuration"
+msgstr "پیکربندی حساب بانکی"
 
 #: src/Pmpr/Module/WoocommerceGateway/Mellat.php:76
 msgid "Terminal ID"
@@ -279,7 +281,7 @@ msgstr "کلمه عبور درگاه بانک ملت"
 #: src/Pmpr/Module/WoocommerceGateway/Mellat.php:103
 #, php-format
 msgid "Order Number # %s"
-msgstr ""
+msgstr "شماره سفارش # %s"
 
 #: src/Pmpr/Module/WoocommerceGateway/Mellat.php:152
 msgid "Connecting to the bank ....."
@@ -499,34 +501,53 @@ msgid "A system error occurred while paying: %s"
 msgstr ""
 
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:27
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:27
 msgid "Parsian Bank"
 msgstr "بانک پارسیان"
 
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:170
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:170
 msgid "Receiver ID"
 msgstr "شناسه پذیرنده"
 
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:171
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:171
 msgid "PIN code received from Parsian Bank."
 msgstr "پین کد دریافت شده از بانک پارسیان."
 
 #: src/Pmpr/Module/WoocommerceGateway/Parsian.php:199
+msgid "An unknown error has occurred"
+msgstr "خطای ناشناخته رخ داده است"
+
+#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:202
+msgid "Transaction reversal is not allowed"
+msgstr "برگشت تراکنش مجاز نمی باشد"
+
+#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:205
+msgid "The transaction has already been reversed"
+msgstr "برگشت تراکنش قبلا انجام شده است"
+
+#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:208
+msgid "It is not possible to reverse the transaction in the current state"
+msgstr "برگشت تراکنش در وضعیت جاری امکان پذیر نمی باشد"
+
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:199
 msgid "The situation is unclear."
 msgstr "وضعیت نامشخص است."
 
-#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:202
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:202
 msgid "The Receiver ID is invalid."
 msgstr "شناسه پذیرنده معتبر نیست."
 
-#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:205
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:205
 msgid "Receiver ID or IP is invalid."
 msgstr "شناسه پذیرنده یا IP معتبر نیست."
 
-#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:208
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:208
 msgid "The transaction has already been completed."
 msgstr "تراکنش قبلا کامل شده است."
 
-#: src/Pmpr/Module/WoocommerceGateway/Parsian.php:211
+#: src/Pmpr/Module/WoocommerceGateway/ParsianOLD.php:211
 msgid "The customer's transaction number is not correct."
 msgstr "شماره تراکنش مشتری صحیح نیست."
 
