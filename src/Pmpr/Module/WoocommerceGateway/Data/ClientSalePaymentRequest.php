@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             662360a9e6478             |
+    |             66238e86c2e5b             |
     |_______________________________________|
 */
  namespace Pmpr\Module\WoocommerceGateway\Data; class ClientSalePaymentRequest { public $Amount; public $OrderId; public $CallBackUrl; public $LoginAccount; public $AdditionalData; public function qiccuiwooiquycsg(array $yiosiwewiecqmkaa) { foreach ($yiosiwewiecqmkaa as $csgiecsagosuucqo => $eqgoocgaqwqcimie) { if (!isset($this->{$csgiecsagosuucqo})) { goto ykomgumacooyomsk; } $this->{$csgiecsagosuucqo} = $eqgoocgaqwqcimie; ykomgumacooyomsk: ogqmesokykywseys: } awoaooyoeoyeeqee: } }
